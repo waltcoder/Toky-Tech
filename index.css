@@ -1,0 +1,196 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	font-size: 100%;
+}
+
+#Body {
+	height: 100vh;
+	font-family: 'Rubik', sans-serif;
+}
+
+.Header {
+	background-image: url(images/bgHeader.png);
+	background-size: cover;
+	background-position: center center;
+	height: 50.9375rem;
+	width: 100%;
+}
+
+.Header .Cta .Nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 11.8125rem;
+	height: 4.8125rem;
+}
+
+.Cta {
+	width: 90%;
+	max-width: 61.125rem;
+	margin: auto;
+}
+
+.Logo {
+	background: initial;
+	color: initial;
+	border: initial;
+	box-shadow: initial;
+
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.87rem;
+
+	color: #ffffff;
+}
+
+.List {
+	display: flex;
+	align-items: center;
+
+	list-style: none;
+	gap: 1.455625rem;
+}
+
+.List .Links {
+	font-size: 1.25rem;
+	color: #ffffff;
+}
+
+.List li:nth-child(1) a {
+	color: #ff0058;
+}
+
+.Links {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.Header .Section {
+	text-align: center;
+}
+.Header .Section h3 {
+	font-size: 2.43375rem;
+	color: #ff0058;
+
+	margin-bottom: 1.59375rem;
+}
+.Header .Section h2 {
+	font-size: 3.391176470588235rem;
+	color: #ffffff;
+	margin-bottom: 5.75rem;
+}
+
+.Header .Section div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5625rem;
+	flex-wrap: wrap;
+}
+
+.Header .Section div .Links {
+	color: #ffffff;
+
+	padding: 0.625rem 1.1875rem;
+	border: 1px solid #ffffff;
+	border-radius: 1.375rem;
+
+	font-size: 0.875rem;
+}
+
+.Header .Section div .Links:nth-child(1) {
+	background-color: #ff0058;
+	color: #ffffff;
+	border: 1px solid transparent;
+}
+
+.Services{
+	text-align: center;
+	margin-top: 3.9375rem;
+}
+
+.Services h2{
+	font-size: 2.43375rem;
+	color: #FF0058;
+}
+
+.Services h5{
+	color: #5F5F5F;
+	font-size: 1.125rem;
+	font-weight: 400;
+}
+
+.ServicesCnt{
+	display: flex;
+	justify-content: center;
+	gap: 1.875rem;
+	flex-wrap: wrap;
+	margin-top: 4.125rem;
+}
+
+.ServicesCnt div{
+	width: 19.125rem;
+	padding: 5.8125rem 2.6875rem 2.875rem;
+	border: 1px solid #D7D7D7;
+	border-radius: 0.9375rem;
+
+	text-align: center;
+}
+
+.ServicesCnt h4{
+	font-size: 1.0625rem;
+	color: #1B1B1E;
+	margin-bottom: 0.9375rem;
+}
+
+.ServicesCnt h5{
+	color: #5F5F5F;
+	font-size: 0.875rem;
+	font-weight: 400;
+	margin-bottom: 1.5625rem;
+}
+
+.BtnPrimary{
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.875rem;
+	background-color: #FF0058;
+	color: #FFFFFF;
+	box-shadow: initial;
+	border: initial;
+
+	padding: 0.625rem 1.125rem;
+	border-radius: 1.375rem;
+
+
+	cursor: pointer;
+}
+
+@media (max-width: 1000px){
+	html{
+		font-size: 95%;
+	}
+	.List{
+		position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border-width: 0;
+	}
+
+	.Header .Section h2{
+		font-size: 3rem;
+	}
+}
